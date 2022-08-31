@@ -119,3 +119,30 @@ ul {
     font-size: 18px;
     color: white;
   }
+
+  .details-content {
+    color: white;
+    text-align: center;
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  #Layer_1 {
+    font-size: 50px;
+  }
+
+  #input-data {
+    background: rgb(255, 255, 255);
+    margin-top: 30px;
+    border: 1px solid rgb(92, 92, 92);
+    width: 50%;
+    padding: 12px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+  }
