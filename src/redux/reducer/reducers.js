@@ -1,11 +1,11 @@
-const FETCH_DATA = 'FETCH_DATA';
+const FETCH_API_DATA = 'FETCH_API_DATA';
 export const REMOVE_DATA = 'REMOVE_DATA';
 
 export const IState = {
   details: {},
 };
 
-export const getWeather = (payload) => ({ type: FETCH_DATA, payload });
+export const getWeather = (payload) => ({ type: FETCH_API_DATA, payload });
 
 export const getData = (city) => async (dispatch) => {
   const API = `https://api.openweathermap.org/data/2.5/weather?q=${city},cd&appid=dbcafa607ffec504a9efc04f81348fa9`;
@@ -24,7 +24,7 @@ export const getData = (city) => async (dispatch) => {
 
 const reducer = (state = IState, action) => {
   switch (action.type) {
-    case FETCH_DATA:
+    case FETCH_API_DATA:
       return { ...state, details: action.payload };
     case REMOVE_DATA:
       return { ...state, details: {} };
