@@ -44,14 +44,14 @@ ul {
   margin-left: 65px;
   margin-right: 40px;
   display: grid;
-  grid-template-columns: repeat(3, 30%);
+  grid-template-columns: repeat(4, 23%);
   height: 600px;
   gap: 10px;
 }
 
 @media only screen and (max-width: 600px) {
   .capitols-table {
-    margin-left: 30px;
+    margin-left: 4px;
     margin-right: 50px;
     display: grid;
     grid-template-columns: repeat(2, 50%);
