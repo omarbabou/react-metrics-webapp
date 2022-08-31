@@ -5,7 +5,7 @@ import { IoIosArrowBack } from 'react-icons/io';
 import { Link } from 'react-router-dom';
 
 const Header = () => (
-    <div className="Header">
+  <div className="Header">
     <Link to="/">
       <IoIosArrowBack className="header-back" />
     </Link>
