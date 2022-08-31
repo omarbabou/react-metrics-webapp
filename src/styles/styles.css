@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #4369b2;
+  font-family: 'Poppins', sans-serif;
+  color: #385892;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.Header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-top: 10px;
+  background: url('../graphics/dphdwep.gif');
+  height: 20rem;
+}
+
+.header-back {
+  font-size: 30px;
+  padding: 5px;
+  background: rgb(42, 42, 42);
+  border-radius: 50%;
+  align-items: center;
+  text-align: center;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.capitols-table {
+  margin-left: 65px;
+  margin-right: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  height: 600px;
+  gap: 10px;
+}
