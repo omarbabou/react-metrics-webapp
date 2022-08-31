@@ -13,12 +13,7 @@ const Locations = () => {
   const handleChange = (event) => {
     setSearchQuery(event.target.value);
   };
-  const CountryCapitols = [
-    'Kigali', 'Kampala', 'Nairobi', 'Caire', 'Kinshasa',
-    'Pretoria', 'Abuja', 'Dakar', 'Bamako', 'Rabat', 'Tunis',
-    'Accra', 'Luanda', 'Libreville', 'Bangui', 'Djouba', 'Alger',
-    'Conakry', 'Lusaka', 'Moroni', 'Mogadishu', 'Praia', 'Gaborone', 'Harare', 'Tripoli',
-  ];
+  const CountryCapitols = ['Kinshasa', 'Matadi', 'Kisangani', 'Tanganyika', 'Lualaba', 'Kolwezi', 'Lodja', 'Businga', 'Fizi', 'Uvira', 'Kamituga', 'Beni', 'Butembo', 'Bunia', 'Kalemie', 'Ituri', 'Boende', 'Bosobolo', 'Kabinda', 'Boma', 'Gbadolite', 'Likasi', 'Gemena', 'Bandundu', 'kananga'];
   const searchedCountriesCapitols = searchQuery.trim().length
    > 0 ? CountryCapitols.filter((c) => c.toLowerCase().includes(searchQuery.toLowerCase()))
     : CountryCapitols;
