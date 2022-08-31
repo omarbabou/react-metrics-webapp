@@ -59,3 +59,16 @@ ul {
     gap: 10px;
   }
 }
+
+.link {
+    background-color: #385892;
+    text-decoration: none;
+    border: 0.3px solid rgb(56, 56, 55);
+    margin: 20px;
+    width: 100%;
+    padding-bottom: 50px;
+  }
+  
+  .link:hover {
+    border: 1px solid white;
+  }
