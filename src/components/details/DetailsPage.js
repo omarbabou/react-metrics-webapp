@@ -25,7 +25,7 @@ const Details = () => {
       type: REMOVE_DATA,
     });
   }, []);
-  const icon = () => {
+  const capitolIcon = () => {
     switch (city.weather[0].main) {
       case 'Clear':
         return <WiDaySunny />;
@@ -61,5 +61,50 @@ const Details = () => {
         return <div className="none" />;
     }
   };
+  return (
+    <>
+      {Object.keys(city).length === 0 ? (
+        <div className="details-text">
+          <Loader />
+        </div>
+      ) : (
+        <div className="details-container">
+          <div className="details-content">
+            <h1 className="details-name">
+              <IoIosPin />
+              {city.name}
+            </h1>
+            <div className="detail-icon">{capitolIcon()}</div>
+            <h2 className="descript">{city.weather[0].description}</h2>
+            <h3 className="temp">
+              Temp :
+              {city.weather[0].temp}
+              {'\u00b0'}
+              F
+            </h3>
+            <div className="details-content-2">
+              <span className="humidity">
+                Humidity :
+                {city.weather[0].humidity}
+              </span>
+              <span className="pressure">
+                Pressure :
+                {city.weather[0].pressure}
+              </span>
+              <span className="speed">
+                Speed :
+                {city.weather[0].speed}
+              </span>
+              <span className="deg">
+                Deg :
+                {city.weather[0].deg}
+              </span>
+            </div>
+          </div>
+        </div>
+      )}
+    </>
+  );
+};
 
 export default Details;
