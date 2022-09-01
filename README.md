@@ -26,13 +26,16 @@ This React capstone project is about building a mobile web application to check 
 
 ## Getting Started
 
+
 Clone the repo into your local machine.
 
 To get a local copy up and running follow these simple example steps.
 
+
+
 ### Prerequisites
 
-NPM should be installed.
+`NPM` should be installed.
 
 
 ### Install
@@ -41,7 +44,7 @@ run `npm install` to install dependencies
 
 
 ### Usage
-run npm start.
+run `npm start`.
 
 
 ## Authors
