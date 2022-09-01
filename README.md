@@ -19,6 +19,11 @@ This React capstone project is about building a mobile web application to check 
 [REACT-METRICS-WEBAPP](https://idriss-omar-react-metrics.netlify.app/)
 
 
+## Video Link
+
+[Video Link](https://www.loom.com/share/59ad0321bed5488faa77a223215dfe1b)
+
+
 ## Getting Started
 
 Clone the repo into your local machine.
