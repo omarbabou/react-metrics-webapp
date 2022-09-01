@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test the Details page To Test Details page renders successfully! 1`] = `
+<div
+  className="details-text"
+>
+  <div>
+     Loading... 
+  </div>
+</div>
+`;
