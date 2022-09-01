@@ -19,15 +19,23 @@ This React capstone project is about building a mobile web application to check 
 [REACT-METRICS-WEBAPP](https://idriss-omar-react-metrics.netlify.app/)
 
 
+## Video Link
+
+[Video Link](https://www.loom.com/share/59ad0321bed5488faa77a223215dfe1b)
+
+
 ## Getting Started
+
 
 Clone the repo into your local machine.
 
 To get a local copy up and running follow these simple example steps.
 
+
+
 ### Prerequisites
 
-NPM should be installed.
+`NPM` should be installed.
 
 
 ### Install
@@ -36,7 +44,7 @@ run `npm install` to install dependencies
 
 
 ### Usage
-run npm start.
+run `npm start`.
 
 
 ## Authors
@@ -56,7 +64,7 @@ Feel free to check the [issues page]()
 
 ## Acknowledgements
 
-The authors highly appreciate the help in the project from all the participants of this week's program for the timely response to all questions from our team.
+Design inspired from [Nelson Sakwa on Behance](https://www.behance.net/gallery/31579789/Ballhead-App-%28Free-PSDs%29).
 
 ## 📝 License
 
