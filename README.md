@@ -64,7 +64,7 @@ Feel free to check the [issues page]()
 
 ## Acknowledgements
 
-The authors highly appreciate the help in the project from all the participants of this week's program for the timely response to all questions from our team.
+Design inspired from [Nelson Sakwa on Behance](https://www.behance.net/gallery/31579789/Ballhead-App-%28Free-PSDs%29).
 
 ## 📝 License
 
