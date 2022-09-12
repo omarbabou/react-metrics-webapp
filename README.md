@@ -14,6 +14,14 @@ This React capstone project is about building a mobile web application to check 
 - ES Modules
 - Linters
 
+
+## Screenshots 
+
+![desktop](./Screen%20Shot%202022-09-12%20at%2023.24.46.png)
+
+![mobile](./Screen%20Shot%202022-09-12%20at%2023.27.52.png)
+
+
 ## Demo Link
 
 [REACT-METRICS-WEBAPP](https://idriss-omar-react-metrics.netlify.app/)
